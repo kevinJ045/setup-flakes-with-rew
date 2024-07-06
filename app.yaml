@@ -1,0 +1,12 @@
+manifest:
+  package: rewdir
+  private: false
+exec:
+  entry: main.coffee
+assets:
+  icon: assets/icon.png
+  folder: ./assets
+install:
+  exec: 
+    rewdir: entry
+  requirements: []
